@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-form {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin: 50px 30px 0;
+  flex-direction: column;
+  border-bottom: 5px solid #aeaeae;
+}
+.form-title {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px 0 10px 10px;
+  margin: 0 auto 12px;
+}
+.form-description {
+  width: 100%;
+  padding: 10px 0 10px 10px;
+  border-radius: 4px;
+  border: 1px solid black;
+  margin: 0 auto 12px;
+}
+.todo-form placeholder {
+  font-size: 15px;
+  opacity: 0.1;
+}
+
+.App-form button {
+  padding: 5px 10px;
+  border: 3px solid #f08080;
+  background-color: #fff5ee;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
